@@ -52,7 +52,7 @@ public class App
 			}
 			
 			//
-			Util.getApplicationContext().registerShutdownHook();
+			Util.getApplicationContext().close();
 			
 	}
 }
