@@ -1,15 +1,14 @@
 package com.springmybatis.util;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.springmybais.service.FilmService;
 import com.springmybatis.mapper.FilmMapper;
 
 public class Util {
-	private static ApplicationContext applicationContext;
+	private static ClassPathXmlApplicationContext applicationContext;
 	
-	public static ApplicationContext getApplicationContext(){
+	public static ClassPathXmlApplicationContext getApplicationContext(){
 		if(applicationContext==null)
 			applicationContext = new ClassPathXmlApplicationContext(Constant.BEANS_PATH);
 		return applicationContext;
