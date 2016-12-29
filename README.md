@@ -11,3 +11,5 @@
 ##Maven运行指令
 	mvn exec:java -Dexec.mainClass="SpringMybatis.Exam_12739_20161229_1.App""# Exam-12739-20161229-1" 
 # Exam-12739-20161229-1
+# Exam-12739-20161229-1
+# Exam-12739-20161229-1
